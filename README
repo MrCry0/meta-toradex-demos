@@ -21,16 +21,16 @@ This layer depends on the relevant BSP layers for your machine and:
 the specific layer versions we used when building our binary demo images)
 
   URI: git://git.openembedded.org/bitbake
-  branch: master
+  branch: 1.44
   revision: HEAD
 
   URI: git://git.openembedded.org/openembedded-core
-  layer: meta
+  layer: zeus
   branch: master
 
   URI: git://git.openembedded.org/meta-yocto
   layer: meta-poky
-  branch: master
+  branch: zeus
   revision: HEAD
 
   URI: git://git.openembedded.org/meta-openembedded
@@ -39,31 +39,15 @@ the specific layer versions we used when building our binary demo images)
     meta-multimedia
     meta-networking
     meta-oe
-  branch: master
-  revision: HEAD
-
-  URI: https://github.com/OSSystems/meta-browser.git
-  branch: master
+  branch: zeus
   revision: HEAD
 
   URI: git://git.yoctoproject.org/meta-freescale
-  branch: thud
+  branch: zeus
   revision: HEAD
 
   URI: https://github.com/freescale/meta-freescale-distro.git
-  branch: thud
-  revision: HEAD
-
-  URI: git://git.toradex.com/meta-lxde.git
-  branch: thud
-  revision: HEAD
-
-  URI: https://github.com/meta-qt5/meta-qt5
-  branch: thud
-  revision: HEAD
-
-  URI: https://github.com/schnitzeltony/meta-qt5-extra.git
-  branch: thud
+  branch: zeus
   revision: HEAD
 
 Patches
