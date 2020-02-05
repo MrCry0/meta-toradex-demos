@@ -66,6 +66,7 @@ RRECOMMENDS_packagegroup-devel-tdx-cli = "\
     less \
     perf \
     serial-test \
+    smem \
     spitools \
     spidev-test \
     strace \
