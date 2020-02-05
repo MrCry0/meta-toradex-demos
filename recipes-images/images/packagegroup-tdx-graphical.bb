@@ -56,9 +56,8 @@ RRECOMMENDS_packagegroup-gstreamer-tdx-graphical_append_mx8 = " \
     packagegroup-fsl-gstreamer1.0-full \
     gst-examples \
 "
-RRECOMMENDS_packagegroup-gstreamer-tdx-graphical_tegra124 = " \
+RRECOMMENDS_packagegroup-gstreamer-tdx-graphical_append_tegra124 = " \
     ${@bb.utils.contains("LICENSE_FLAGS_WHITELIST", "commercial", "gstreamer1.0-libav", "", d)} \
-    gstreamer1.0-plugins-bad-videoparsersbad \
     libgstcodecparsers-1.0 \
     libgstomx-1.0 \
 "
