@@ -140,6 +140,7 @@ RRECOMMENDS_packagegroup-utils-tdx-cli = "\
     minicom \
     mmc-utils-cos \
     pciutils \
+    phytool \
     procps \
     ${RANDOM_HELPER} \
     stress-ng \
