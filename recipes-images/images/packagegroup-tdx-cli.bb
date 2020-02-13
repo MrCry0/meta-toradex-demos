@@ -135,6 +135,7 @@ RRECOMMENDS_packagegroup-utils-tdx-cli = "\
     e2fsprogs-resize2fs \
     e2fsprogs-tune2fs \
     ethtool \
+    gpsd \
     grep \
     lsof \
     minicom \
