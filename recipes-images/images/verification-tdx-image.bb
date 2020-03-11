@@ -1,7 +1,6 @@
 require graphical-tdx-image.bb
 
 SUMMARY = "Toradex Embedded Linux Verification Image"
-SUMMARY_append_apalis-tk1-mainline = " (Mainline)"
 DESCRIPTION = "Image for BSP verification"
 
 LICENSE = "MIT"
