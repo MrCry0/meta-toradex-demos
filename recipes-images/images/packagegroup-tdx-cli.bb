@@ -43,6 +43,7 @@ RRECOMMENDS_packagegroup-base-tdx-cli = "\
     mtd-utils \
     u-boot-fw-utils \
     util-linux-fstrim \
+    udev-toradex-rules \
 "
 
 SUMMARY_packagegroup-benchmark-tdx-cli = "Benchmarking tools"
