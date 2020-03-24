@@ -183,6 +183,7 @@ IMAGE_INSTALL += " \
     util-linux-lsblk \
     \
     tdx-oak-sensors \
+    udev-toradex-rules \
 "
 
 # Wi-Fi FW and Packages
