@@ -144,7 +144,7 @@ IMAGE_INSTALL += " \
     libgpiod-tools \
     sqlite3 \
     \
-    ${WIFI} \
+    ${BACKPORTS_WIFI} \
     avahi-autoipd \
     ppp \
     curl \
@@ -186,10 +186,11 @@ IMAGE_INSTALL += " \
     udev-toradex-rules \
 "
 
-# Wi-Fi FW and Packages
+# Wi-Fi backports, firmware and packages
 
-WIFI = " \
-    hostapd \
+BACKPORTS_WIFI = " \
+    backports                \
+    hostapd                  \
     linux-firmware-ath10k    \
     linux-firmware-sd8686    \
     linux-firmware-sd8688    \
@@ -200,7 +201,7 @@ WIFI = " \
     linux-firmware-ralink    \
     linux-firmware-rtl8192cu \
     linux-firmware-rtl8188eu \
-    wireless-regdb-static \
+    wireless-regdb-static    \
 "
 WIFI_EXTRA = " \
     linux-firmware-ath9k     \
@@ -208,7 +209,6 @@ WIFI_EXTRA = " \
 "
 
 IMAGE_INSTALL_append_apalis-tk1 = " \
-    backports \
     ${WIFI_EXTRA} \
 "
 
@@ -225,4 +225,3 @@ IMAGE_INSTALL_append_mx8 = " \
     mwifiexap \
     ${WIFI_EXTRA} \
 "
-
