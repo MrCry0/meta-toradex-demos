@@ -40,6 +40,10 @@ IMAGE_INSTALL_append_tegra124 = " \
     perf \
 "
 
+IMAGE_INSTALL_remove_tegra124 = "\
+    backports \
+"
+
 IMAGE_INSTALL_append_tegra124m = " \
     aspell \
     e2fsprogs \
