@@ -42,8 +42,9 @@ RRECOMMENDS_packagegroup-base-tdx-cli = "\
     libsoc \
     mtd-utils \
     u-boot-fw-utils \
-    util-linux-fstrim \
     udev-toradex-rules \
+    uhubctl \
+    util-linux-fstrim \
 "
 
 SUMMARY_packagegroup-benchmark-tdx-cli = "Benchmarking tools"
