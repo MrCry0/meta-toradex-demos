@@ -171,8 +171,8 @@ RRECOMMENDS_packagegroup-utils-large-tdx-cli = "\
 "
 
 SUMMARY_packagegroup-wifi-tdx-cli = "Useful Wi-Fi utilities and firmware"
-BACKPORTS = ""
-BACKPORTS_tegra124 = "backports"
+BACKPORTS_upstream = ""
+BACKPORTS = "backports"
 RRECOMMENDS_packagegroup-wifi-tdx-cli = "\
     ${BACKPORTS} \
     hostapd \
