@@ -28,6 +28,10 @@ the specific layer versions we used when building our binary demo images)
   branch: thud
   revision: HEAD
 
+  URI: git://git.toradex.com/meta-toradex-distro
+  branch: thud
+  revision: HEAD
+
   URI: git://git.openembedded.org/meta-openembedded
   layers:
     meta-gnome
