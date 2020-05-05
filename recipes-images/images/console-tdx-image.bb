@@ -1,7 +1,6 @@
 inherit core-image
 
 SUMMARY = "Toradex Embedded Linux Console Image"
-SUMMARY_append_apalis-tk1-mainline = " (Mainline)"
 DESCRIPTION = "Image without graphical interface"
 
 LICENSE = "MIT"
