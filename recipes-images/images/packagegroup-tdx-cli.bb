@@ -177,6 +177,7 @@ BACKPORTS = "backports"
 RRECOMMENDS_packagegroup-wifi-tdx-cli = "\
     ${BACKPORTS} \
     hostapd \
+    hostapd-example \
     wireless-regdb-static \
 "
 
