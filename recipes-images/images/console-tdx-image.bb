@@ -37,6 +37,7 @@ IMAGE_INSTALL += " \
     packagegroup-base-tdx-cli \
     packagegroup-machine-tdx-cli \
     packagegroup-wifi-tdx-cli \
+    packagegroup-wifi-fw-tdx-cli \
     udev-extra-rules \
     ${CONMANPKGS} \
     ${ROOTFS_PKGMANAGE_PKGS} \
