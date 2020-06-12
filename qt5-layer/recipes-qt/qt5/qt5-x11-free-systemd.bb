@@ -20,6 +20,5 @@ do_install () {
     install -m 0644 ${WORKDIR}/qt5-x11-demo.service ${D}${systemd_unitdir}/system
 }
 
-NATIVE_SYSTEMD_SUPPORT = "1"
 SYSTEMD_PACKAGES = "${PN}"
 SYSTEMD_SERVICE_${PN} = "qt5-x11-demo.service"
