@@ -8,11 +8,6 @@ SRC_URI = "file://timestamp.service \
            file://load-timestamp.sh \
           "
 
-do_compile() {
-    :
-}
-
-
 do_install () {
 	install -d ${D}/${bindir}
 
@@ -22,9 +17,5 @@ do_install () {
 	install -m 0644 ${WORKDIR}/timestamp.service ${D}/${base_libdir}/systemd/system/
 }
 
-NATIVE_SYSTEMD_SUPPORT = "1"
 SYSTEMD_PACKAGES = "${PN}"
 SYSTEMD_SERVICE_${PN} = "timestamp.service"
-
-FILES_${PN} += "${base_libdir}/systemd"
-
