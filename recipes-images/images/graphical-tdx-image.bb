@@ -3,8 +3,6 @@ require console-tdx-image.bb
 SUMMARY = "Toradex Embedded Linux Graphical Image"
 DESCRIPTION = "Image with a graphical interface, either using weston or X11"
 
-LICENSE = "MIT"
-
 #Prefix to the resulting deployable tarball name
 export IMAGE_BASENAME = "Graphical-Image"
 

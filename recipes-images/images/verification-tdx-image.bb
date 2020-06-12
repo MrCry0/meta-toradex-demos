@@ -3,8 +3,6 @@ require graphical-tdx-image.bb
 SUMMARY = "Toradex Embedded Linux Verification Image"
 DESCRIPTION = "Image for BSP verification"
 
-LICENSE = "MIT"
-
 #Prefix to the resulting deployable tarball name
 export IMAGE_BASENAME = "Verification-Image"
 

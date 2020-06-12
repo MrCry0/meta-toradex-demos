@@ -25,9 +25,6 @@ ROOTFS_POSTPROCESS_COMMAND += " add_rootfs_version;"
 
 IMAGE_LINGUAS = "en-us"
 #IMAGE_LINGUAS = "de-de fr-fr en-gb en-us pt-br es-es kn-in ml-in ta-in"
-#ROOTFS_POSTPROCESS_COMMAND += 'install_linguas; '
-
-ROOTFS_PKGMANAGE_PKGS ?= '${@oe.utils.conditional("ONLINE_PACKAGE_MANAGEMENT", "none", "", "${ROOTFS_PKGMANAGE}", d)}'
 
 CONMANPKGS ?= "connman connman-plugin-loopback connman-plugin-ethernet connman-plugin-wifi connman-client"
 
@@ -38,13 +35,7 @@ IMAGE_INSTALL += " \
     packagegroup-machine-tdx-cli \
     packagegroup-wifi-tdx-cli \
     packagegroup-wifi-fw-tdx-cli \
-    udev-extra-rules \
+    udev-extraconf \
     ${CONMANPKGS} \
-    ${ROOTFS_PKGMANAGE_PKGS} \
-    timestamp-service \
+    ${@bb.utils.contains('DISTRO_FEATURES', 'systemd', 'timestamp-service', '', d)} \
 "
-
-IMAGE_DEV_MANAGER   = "udev"
-IMAGE_INIT_MANAGER  = "systemd"
-IMAGE_INITSCRIPTS   = " "
-IMAGE_LOGIN_MANAGER = "busybox shadow"
