@@ -97,11 +97,6 @@ RRECOMMENDS_packagegroup-machine-tdx-cli_tegra124 = "\
     lvds-tegra124 \
     kernel-modules \
 "
-RRECOMMENDS_packagegroup-machine-tdx-cli_tegra124m = "\
-    hdmi-hotplug \
-    lvds-tegra124 \
-    kernel-modules \
-"
 
 SUMMARY_packagegroup-networking-tdx-cli = "Networking specific tools"
 RRECOMMENDS_packagegroup-networking-tdx-cli = "\
@@ -118,14 +113,12 @@ SUMMARY_packagegroup-utils-tdx-cli = "Useful utilities"
 # Entropy source daemon
 RANDOM_HELPER = "rng-tools"
 RANDOM_HELPER_tegra124 = "haveged"
-RANDOM_HELPER_tegra124m = "haveged"
 
+USB_GADGET = ""
 USB_GADGET_imx = " \
     libusbgx \
     libusbgx-examples \
 "
-USB_GADGET_tegra124 = "usb-rndis-systemd"
-USB_GADGET_tegra124m = ""
 
 RRECOMMENDS_packagegroup-utils-tdx-cli = "\
     alsa-utils \

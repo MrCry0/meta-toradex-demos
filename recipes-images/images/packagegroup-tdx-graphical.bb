@@ -25,9 +25,6 @@ RRECOMMENDS_packagegroup-tdx-graphical = " \
 RRECOMMENDS_packagegroup-tdx-graphical_append_mx8 = " \
     packagegroup-drm-utils-tdx-graphical \
 "
-RRECOMMENDS_packagegroup-tdx-graphical_append_tegra124m = " \
-    packagegroup-drm-utils-tdx-graphical \
-"
 
 SUMMARY_packagegroup-drm-utils-tdx-graphical = "Utilities for DRM, Direct Rendering Manager"
 RRECOMMENDS_packagegroup-drm-utils-tdx-graphical = " \
@@ -95,12 +92,6 @@ RRECOMMENDS_packagegroup-gpu-tdx-graphical_append_mx8qm = " \
     libopenvx-imx \
 "
 RRECOMMENDS_packagegroup-gpu-tdx-graphical_append_tegra124 = " \
-    libglu \
-    freeglut \
-    tiff \
-    xvinfo \
-"
-RRECOMMENDS_packagegroup-gpu-tdx-graphical_append_tegra124m = " \
     libglu \
     freeglut \
     tiff \
