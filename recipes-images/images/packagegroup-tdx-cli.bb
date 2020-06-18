@@ -77,16 +77,20 @@ RRECOMMENDS_packagegroup-devel-tdx-cli = "\
 SUMMARY_packagegroup-machine-tdx-cli = "Machine specific tools"
 RRECOMMENDS_packagegroup-machine-tdx-cli = "\
 "
-RRECOMMENDS_packagegroup-machine-tdx-cli_mx6 = "\
+RRECOMMENDS_packagegroup-machine-tdx-cli_apalis-imx6 = "\
     bmode-usb \
     gpio-export \
 "
-RRECOMMENDS_packagegroup-machine-tdx-cli_mx6ull = "\
+RRECOMMENDS_packagegroup-machine-tdx-cli_colibri-imx6 = "\
+    bmode-usb \
+    gpio-export \
+"
+RRECOMMENDS_packagegroup-machine-tdx-cli_colibri-imx6ull = "\
     bmode-usb \
     mtd-utils-ubifs \
     mwifiexap \
 "
-RRECOMMENDS_packagegroup-machine-tdx-cli_mx7 = "\
+RRECOMMENDS_packagegroup-machine-tdx-cli_colibri-imx7 = "\
     mtd-utils-ubifs \
 "
 RRECOMMENDS_packagegroup-machine-tdx-cli_mx8 = "\

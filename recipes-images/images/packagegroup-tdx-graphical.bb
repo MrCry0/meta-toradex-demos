@@ -67,15 +67,17 @@ IMAGE_INSTALL_OPENCL_IMX = " \
 RRECOMMENDS_packagegroup-gpu-tdx-graphical = " \
     glmark2 \
 "
-IMAGE_INSTALL_MX6QDL = " \
+IMAGE_INSTALL_GPU_MX6QDL = " \
     packagegroup-fsl-gpu-libs \
 "
-RRECOMMENDS_packagegroup-gpu-tdx-graphical_append_mx6dl = " ${IMAGE_INSTALL_MX6QDL}"
+RRECOMMENDS_packagegroup-gpu-tdx-graphical_append_mx6dl = " \
+    ${IMAGE_INSTALL_GPU_MX6QDL} \
+"
 RRECOMMENDS_packagegroup-gpu-tdx-graphical_append_mx6q = " \
-    ${IMAGE_INSTALL_MX6QDL} \
+    ${IMAGE_INSTALL_GPU_MX6QDL} \
     ${IMAGE_INSTALL_OPENCL_IMX} \
 "
-RRECOMMENDS_packagegroup-gpu-tdx-graphical_mx6ull = ""
+RRECOMMENDS_packagegroup-gpu-tdx-graphical_colibri-imx6ull = ""
 RRECOMMENDS_packagegroup-gpu-tdx-graphical_append_mx8 = " \
     tinycompress \
     libvdk-imx \
