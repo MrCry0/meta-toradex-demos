@@ -145,9 +145,6 @@ RRECOMMENDS_packagegroup-utils-tdx-cli = "\
     ${USB_GADGET} \
     util-linux \
 "
-RRECOMMENDS_packagegroup-utils-tdx-cli_append_mx6 = " \
-    mimetypes \
-"
 RRECOMMENDS_packagegroup-utils-tdx-cli_append_mx8 = " \
     cpuburn-a53 \
 "
