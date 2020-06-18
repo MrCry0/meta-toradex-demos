@@ -53,11 +53,6 @@ RRECOMMENDS_packagegroup-gstreamer-tdx-graphical_append_mx8 = " \
     packagegroup-fsl-gstreamer1.0-full \
     gst-examples \
 "
-RRECOMMENDS_packagegroup-gstreamer-tdx-graphical_append_tegra124 = " \
-    ${@bb.utils.contains("LICENSE_FLAGS_WHITELIST", "commercial", "gstreamer1.0-libav", "", d)} \
-    libgstcodecparsers-1.0 \
-    libgstomx-1.0 \
-"
 
 SUMMARY_packagegroup-gpu-utils-tdx-graphical = "Utilities for GPU (OpenGL...)"
 IMAGE_INSTALL_OPENCL_IMX = " \
