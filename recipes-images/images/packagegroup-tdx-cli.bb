@@ -186,7 +186,7 @@ RRECOMMENDS_packagegroup-wifi-fw-tdx-cli = "\
     linux-firmware-sd8997    \
     linux-firmware-ralink    \
     linux-firmware-rtl8192cu \
-    linux-firmware-rtl8188eu \
+    linux-firmware-rtl8188   \
 "
 
 SUMMARY_packagegroup-wifi-fw-large-tdx-cli = "Wi-Fi firmware with large footprint"
