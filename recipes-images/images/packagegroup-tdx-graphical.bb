@@ -25,6 +25,9 @@ RRECOMMENDS_packagegroup-tdx-graphical = " \
 RRECOMMENDS_packagegroup-tdx-graphical_append_mx8 = " \
     packagegroup-drm-utils-tdx-graphical \
 "
+RRECOMMENDS_packagegroup-tdx-graphical_append_upstream = " \
+    packagegroup-drm-utils-tdx-graphical \
+"
 
 SUMMARY_packagegroup-drm-utils-tdx-graphical = "Utilities for DRM, Direct Rendering Manager"
 RRECOMMENDS_packagegroup-drm-utils-tdx-graphical = " \
