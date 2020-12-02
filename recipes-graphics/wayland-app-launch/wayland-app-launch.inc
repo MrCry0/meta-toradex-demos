@@ -18,7 +18,7 @@ FILESEXTRAPATHS_prepend := "${THISDIR}/wayland-app-launch:"
 APPLICATION_ENVIRONMENT ??= ""
 
 do_compile () {
-    sed -e "s:@@wayland-application@@:${WAYLAND_APPLICATION}:" wayland-app-launch.sh.in > wayland-app-launch.sh
+    sed -e "s:@@wayland-application@@:${WAYLAND_APPLICATION}:" -e "s:@@initial-path@@:${INITIAL_PATH}:" wayland-app-launch.sh.in > wayland-app-launch.sh
     sed -e "s:@@application-environment@@:${APPLICATION_ENVIRONMENT}:" wayland-app-launch.service.in > wayland-app-launch.service
 }
 
