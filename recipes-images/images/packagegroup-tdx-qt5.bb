@@ -16,9 +16,16 @@ RRECOMMENDS_${PN} = " \
     ${PN}-fonts \
     ${PN}-libs \
 "
-# Only install qtsmarthome with its dependencies on modules with limited storage
-RRECOMMENDS_${PN}_colibri-imx6ull = "qtsmarthome"
-RRECOMMENDS_${PN}_colibri-imx7 = "qtsmarthome"
+# Only install qtbase-examples with its dependencies on modules with limited
+# storage and no gpu.
+RRECOMMENDS_${PN}_colibri-imx6ull = " \
+    ${@bb.utils.contains('DISTRO_FEATURES', 'wayland', 'qtwayland', '', d)} \
+    qtbase-examples \
+"
+RRECOMMENDS_${PN}_colibri-imx7 = " \
+    ${@bb.utils.contains('DISTRO_FEATURES', 'wayland', 'qtwayland', '', d)} \
+    qtbase-examples \
+"
 
 SUMMARY_${PN}-demos = "QT5 Demos"
 RRECOMMENDS_${PN}-demos = " \
