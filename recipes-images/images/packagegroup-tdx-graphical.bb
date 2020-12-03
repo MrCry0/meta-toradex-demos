@@ -44,6 +44,9 @@ RRECOMMENDS_packagegroup-gstreamer-tdx-graphical = "\
 GSTREAMER_MX6QDL = " \
     gstreamer1.0-plugins-base-ximagesink \
     gstreamer1.0-plugins-imx \
+    imx-gst1.0-plugin \
+    imx-gst1.0-plugin-gplay \
+    imx-gst1.0-plugin-grecorder \
 "
 RRECOMMENDS_packagegroup-gstreamer-tdx-graphical_append_mx6dl = " ${GSTREAMER_MX6QDL}"
 RRECOMMENDS_packagegroup-gstreamer-tdx-graphical_append_mx6q = " ${GSTREAMER_MX6QDL}"
