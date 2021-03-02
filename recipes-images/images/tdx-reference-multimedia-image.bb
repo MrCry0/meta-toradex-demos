@@ -8,6 +8,9 @@ inherit populate_sdk_qt5
 #Prefix to the resulting deployable tarball name
 export IMAGE_BASENAME = "Reference-Multimedia-Image"
 
+# Show Tezi EULA license
+TEZI_SHOW_EULA_LICENSE ?= "1"
+
 SYSTEMD_DEFAULT_TARGET = "graphical.target"
 
 IMAGE_FEATURES += " \

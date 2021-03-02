@@ -14,6 +14,9 @@ IMAGE_NAME = "${MACHINE_NAME}_${IMAGE_BASENAME}"
 COPY_LIC_MANIFEST ?= "1"
 COPY_LIC_DIRS ?= "1"
 
+# Show Tezi EULA license
+TEZI_SHOW_EULA_LICENSE ?= "1"
+
 add_rootfs_version () {
     printf "${DISTRO_NAME} ${DISTRO_VERSION} (${DISTRO_CODENAME}) \\\n \\\l\n" > ${IMAGE_ROOTFS}/etc/issue
     printf "${DISTRO_NAME} ${DISTRO_VERSION} (${DISTRO_CODENAME}) %%h\n" > ${IMAGE_ROOTFS}/etc/issue.net
