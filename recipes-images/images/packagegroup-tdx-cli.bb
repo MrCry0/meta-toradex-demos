@@ -120,11 +120,11 @@ SUMMARY_packagegroup-utils-tdx-cli = "Useful utilities"
 RANDOM_HELPER = "rng-tools"
 RANDOM_HELPER_tegra124 = "haveged"
 
-USB_GADGET = ""
-USB_GADGET_imx = " \
+USB_GADGET = " \
     libusbgx \
     libusbgx-examples \
 "
+USB_GADGET_tegra124 = ""
 
 RRECOMMENDS_packagegroup-utils-tdx-cli = "\
     alsa-utils \
