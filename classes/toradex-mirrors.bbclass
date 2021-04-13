@@ -1,4 +1,4 @@
-TORADEX_MIRROR_URL="http://sources.toradex.com/2.8/"
+TORADEX_MIRROR_URL="https://artifacts.toradex.com/artifactory/tdxref-oe-prod-frankfurt/dunfell-5.x.y/release/sources/"
 
 PREMIRRORS_append () {
 cvs://.*/.*     ${TORADEX_MIRROR_URL}
