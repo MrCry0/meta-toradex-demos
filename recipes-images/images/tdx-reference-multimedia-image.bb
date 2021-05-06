@@ -41,6 +41,7 @@ IMAGE_INSTALL += " \
     packagegroup-tdx-cli \
     packagegroup-tdx-graphical \
     packagegroup-tdx-qt5 \
+    packagegroup-fsl-isp \
     \
     bash \
     coreutils \
