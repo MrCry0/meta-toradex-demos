@@ -100,7 +100,6 @@ RRECOMMENDS_packagegroup-machine-tdx-cli_mx8 = "\
 "
 RRECOMMENDS_packagegroup-machine-tdx-cli_tegra124 = "\
     hdmi-hotplug \
-    lvds-tegra124 \
     kernel-modules \
 "
 
