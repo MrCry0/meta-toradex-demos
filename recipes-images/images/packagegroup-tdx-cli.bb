@@ -75,6 +75,7 @@ RRECOMMENDS_packagegroup-devel-tdx-cli = "\
     spidev-test \
     strace \
 "
+RRECOMMENDS_packagegroup-devel-tdx-cli_remove_use-nxp-bsp_colibri-vf = "perf"
 
 SUMMARY_packagegroup-machine-tdx-cli = "Machine specific tools"
 RRECOMMENDS_packagegroup-machine-tdx-cli = "\
