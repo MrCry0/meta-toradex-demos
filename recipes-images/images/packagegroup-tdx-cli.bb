@@ -41,6 +41,7 @@ RRECOMMENDS_packagegroup-base-tdx-cli = "\
     libgpiod-tools \
     libsoc \
     mtd-utils \
+    set-hostname \
     u-boot-fw-utils \
     udev-toradex-rules \
     uhubctl \
