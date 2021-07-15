@@ -18,6 +18,9 @@ COPY_LIC_DIRS ?= "1"
 TEZI_SHOW_EULA_LICENSE ?= "1"
 TEZI_SHOW_EULA_LICENSE_apalis-tk1 ?= "0"
 TEZI_SHOW_EULA_LICENSE_use-mainline-bsp ?= "0"
+TEZI_SHOW_EULA_LICENSE_colibri-imx6_use-mainline-bsp ?= "1"
+TEZI_SHOW_EULA_LICENSE_apalis-imx6_use-mainline-bsp ?= "1"
+
 
 add_rootfs_version () {
     printf "${DISTRO_NAME} ${DISTRO_VERSION} (${DISTRO_CODENAME}) \\\n \\\l\n" > ${IMAGE_ROOTFS}/etc/issue

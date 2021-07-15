@@ -11,7 +11,11 @@ export IMAGE_BASENAME = "Reference-Multimedia-Image"
 # Show Tezi EULA license
 TEZI_SHOW_EULA_LICENSE ?= "1"
 TEZI_SHOW_EULA_LICENSE_apalis-tk1 ?= "0"
+
 TEZI_SHOW_EULA_LICENSE_use-mainline-bsp ?= "0"
+TEZI_SHOW_EULA_LICENSE_colibri-imx6_use-mainline-bsp ?= "1"
+TEZI_SHOW_EULA_LICENSE_apalis-imx6_use-mainline-bsp ?= "1"
+
 
 SYSTEMD_DEFAULT_TARGET = "graphical.target"
 
