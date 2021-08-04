@@ -51,6 +51,7 @@ GSTREAMER_MX6QDL = " \
 RRECOMMENDS_packagegroup-gstreamer-tdx-graphical_append_mx6dl = " ${GSTREAMER_MX6QDL}"
 RRECOMMENDS_packagegroup-gstreamer-tdx-graphical_append_mx6q = " ${GSTREAMER_MX6QDL}"
 RRECOMMENDS_packagegroup-gstreamer-tdx-graphical_colibri-imx6ull = ""
+RRECOMMENDS_packagegroup-gstreamer-tdx-graphical_colibri-imx6ull-emmc = ""
 RRECOMMENDS_packagegroup-gstreamer-tdx-graphical_append_mx7 = " imx-gst1.0-plugin"
 RRECOMMENDS_packagegroup-gstreamer-tdx-graphical_append_mx8 = " \
     imx-gst1.0-plugin \
@@ -79,6 +80,7 @@ RRECOMMENDS_packagegroup-gpu-tdx-graphical_append_mx6q = " \
     ${IMAGE_INSTALL_OPENCL_IMX} \
 "
 RRECOMMENDS_packagegroup-gpu-tdx-graphical_colibri-imx6ull = ""
+RRECOMMENDS_packagegroup-gpu-tdx-graphical_colibri-imx6ull-emmc = ""
 RRECOMMENDS_packagegroup-gpu-tdx-graphical_append_mx8 = " \
     tinycompress \
     libvdk-imx \

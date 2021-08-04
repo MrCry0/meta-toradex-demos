@@ -27,12 +27,14 @@ IMAGE_FEATURES += " \
 
 APP_LAUNCH_WAYLAND ?= "wayland-qtdemo-launch-cinematicexperience"
 APP_LAUNCH_WAYLAND_colibri-imx6ull ?= "wayland-qtdemo-launch-analogclock"
+APP_LAUNCH_WAYLAND_colibri-imx6ull-emmc ?= "wayland-qtdemo-launch-analogclock"
 APP_LAUNCH_WAYLAND_colibri-imx7 ?= "wayland-qtdemo-launch-analogclock"
 APP_LAUNCH_WAYLAND_colibri-imx7-emmc ?= "wayland-qtdemo-launch-analogclock"
 APP_LAUNCH_WAYLAND_apalis-tk1 ?= "wayland-qtdemo-launch-qtsmarthome"
 
 APP_LAUNCH_X11 ?= "x-window-qtcinematicexperience"
 APP_LAUNCH_X11_colibri-imx6ull ?= "x-window-analogclock"
+APP_LAUNCH_X11_colibri-imx6ull-emmc ?= "x-window-analogclock"
 APP_LAUNCH_X11_colibri-imx7 ?= "x-window-analogclock"
 APP_LAUNCH_X11_colibri-imx7-emmc ?= "x-window-analogclock"
 APP_LAUNCH_X11_apalis-tk1 ?= "x-window-qtsmarthome"

@@ -22,6 +22,10 @@ RRECOMMENDS_${PN}_colibri-imx6ull = " \
     ${@bb.utils.contains('DISTRO_FEATURES', 'wayland', 'qtwayland', '', d)} \
     qtbase-examples \
 "
+RRECOMMENDS_${PN}_colibri-imx6ull-emmc = " \
+    ${@bb.utils.contains('DISTRO_FEATURES', 'wayland', 'qtwayland', '', d)} \
+    qtbase-examples \
+"
 RRECOMMENDS_${PN}_colibri-imx7 = " \
     ${@bb.utils.contains('DISTRO_FEATURES', 'wayland', 'qtwayland', '', d)} \
     qtbase-examples \

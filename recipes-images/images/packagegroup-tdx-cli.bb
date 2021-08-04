@@ -94,6 +94,9 @@ RRECOMMENDS_packagegroup-machine-tdx-cli_colibri-imx6ull = "\
     mtd-utils-ubifs \
     mwifiexap \
 "
+RRECOMMENDS_packagegroup-machine-tdx-cli_colibri-imx6ull-emmc = "\
+    bmode-usb \
+"
 RRECOMMENDS_packagegroup-machine-tdx-cli_colibri-imx7 = "\
     mtd-utils-ubifs \
 "
